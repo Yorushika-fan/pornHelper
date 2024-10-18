@@ -16,9 +16,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       # 初始化node和npm环境
-      - uses: npm/action-setup@v2 
-        with:
-          version: 6.10.0
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
